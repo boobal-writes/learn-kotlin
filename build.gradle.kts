@@ -27,3 +27,7 @@ tasks.withType<KotlinCompile> {
 application {
     mainClass.set("MainKt")
 }
+
+sourceSets.main {
+    java.srcDirs("src/main/java", "src/main/kotlin")
+}
